@@ -1,8 +1,0 @@
-- #web_ubmp登录参数
-  web_method: post
-  web_url: https://uat.1chemic.com/sagframe-portal/j_spring_security_check
-  web_data:
-    username: liangchenming
-    password: 111aaa
-    inputCode: null
-
