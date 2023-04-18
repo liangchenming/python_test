@@ -1,0 +1,16 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="selenium.webdriver.remote.webelement.WebElement.send" />
+          <option value="pymysql.case_mysql.cursor" />
+          <option value="pymysql.case_mysql.*" />
+          <option value="pymysql.out_sample_sql.*" />
+          <option value="pymysql.out_sample_sql.datainfo" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
