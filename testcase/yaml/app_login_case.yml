@@ -1,0 +1,7 @@
+#app登录参数
+app_method: post
+app_url: https://uat.1chemic.com/ubmp-app/userInfo/login
+app_data:
+  loginName: zhangmeng7
+  password: 111aaa
+  devCode: 02E38916-C87A-4EDC-8266-43652FE8293F
