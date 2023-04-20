@@ -30,7 +30,7 @@ class TestApi:
         res = SendRequests().all_send_requests(method=method, url=url, data=out_data)
         samplejson = res.json()
         assert samplejson['success']  == True
-        print(res.text)
+        return res.text
 
 
 if __name__ == '__main__':
