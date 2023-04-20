@@ -1,6 +1,7 @@
 import pytest as pytest
 import os
 import sys
+
 object_path = os.path.join(os.path.abspath(os.path.dirname(os.path.dirname(__file__))))
 sys.path.append(object_path)
 from common.send_requests import SendRequests
@@ -29,8 +30,7 @@ class TestApi:
         out_data = sampleinfo['out_data']
         res = SendRequests().all_send_requests(method=method, url=url, data=out_data)
         samplejson = res.json()
-        assert samplejson['success']  == True
-        return res.text
+        assert samplejson['success'] == True
 
 
 if __name__ == '__main__':
